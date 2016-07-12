@@ -140,11 +140,15 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="66.03" width="0" layer="20"/>
-<wire x1="100" y1="66.03" x2="0" y2="66.03" width="0" layer="20"/>
-<wire x1="0" y1="66.03" x2="0" y2="0" width="0" layer="20"/>
-<text x="77.47" y="6.35" size="1.9304" layer="25">Robotcrafts v0.1</text>
+<wire x1="0" y1="63.49" x2="0" y2="2.54" width="0" layer="20"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="2.54" y1="0" x2="97.46" y2="0" width="0" layer="20"/>
+<wire x1="97.46" y1="0" x2="100" y2="2.54" width="0" layer="20" curve="90"/>
+<wire x1="100" y1="2.54" x2="100" y2="63.49" width="0" layer="20"/>
+<wire x1="100" y1="63.49" x2="97.46" y2="66.03" width="0" layer="20" curve="90"/>
+<wire x1="97.46" y1="66.03" x2="2.54" y2="66.03" width="0" layer="20"/>
+<wire x1="2.54" y1="66.03" x2="0" y2="63.49" width="0" layer="20" curve="90"/>
+<text x="77.47" y="6.35" size="1.9304" layer="25">Robotcrafts v0.2</text>
 <text x="77.47" y="2.54" size="1.27" layer="25">by Joshua Gruenstein
 Camp Good Grief</text>
 </plain>
