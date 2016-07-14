@@ -4822,11 +4822,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package>
 <package name="5-2,5">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<wire x1="1.524" y1="2.794" x2="-1.524" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-2.794" x2="-1.524" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-2.794" x2="1.524" y2="-2.794" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="2.794" x2="1.524" y2="-2.794" width="0.1524" layer="21"/>
-<smd name="1" x="0" y="0" dx="2.54" dy="5.08" layer="1"/>
+<wire x1="4.064" y1="2.794" x2="-1.524" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-5.334" x2="-1.524" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-5.334" x2="4.064" y2="-5.334" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="2.794" x2="4.064" y2="-5.334" width="0.1524" layer="21"/>
+<smd name="1" x="1.27" y="-1.27" dx="5.08" dy="7.62" layer="1"/>
 <text x="-1.778" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-0.1" y="2.8" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
@@ -22121,14 +22121,14 @@ kids to STEM and STEAM.</text>
 <label x="68.58" y="50.8" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="L1_PAD_BACK" gate="G$1" pin="P"/>
-<wire x1="66.04" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="106.68" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="109.22" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="L1_PAD_FRONT" gate="G$1" pin="P"/>
 <wire x1="66.04" y1="109.22" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
 <junction x="71.12" y="109.22"/>
 <label x="86.36" y="109.22" size="1.016" layer="95" xref="yes"/>
+<pinref part="L1_PAD_BACK" gate="G$1" pin="P"/>
+<wire x1="66.04" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L_OUT2" class="0">
@@ -22143,14 +22143,14 @@ kids to STEM and STEAM.</text>
 <label x="68.58" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="L2_PAD_BACK" gate="G$1" pin="P"/>
-<wire x1="91.44" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="96.52" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="L2_PAD_FRONT" gate="G$1" pin="P"/>
 <wire x1="91.44" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
 <junction x="96.52" y="99.06"/>
 <label x="111.76" y="99.06" size="1.016" layer="95" xref="yes"/>
+<pinref part="L2_PAD_BACK" gate="G$1" pin="P"/>
+<wire x1="91.44" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R_OUT2" class="0">
